@@ -1,0 +1,22 @@
+language: node_js
+branches:
+  only:
+  - master #源码分支名称
+before_install:
+- npm install -g hexo
+- npm install -g hexo-cli
+before_script:
+- git config --global user.name 'liubiaomr'
+- git config --global user.email 'liubiaomr@163.com'
+- sed -i'' "s~git@github.com:liubiaomr/liubiaomr.github.io.git~https://${GH_TOKEN}:x-oauth-basic@github.com/liubiaomr/liubiaomr.github.io.git~" _config.yml
+install:
+- npm install
+script:
+- hexo clean
+- hexo generate
+after_success:
+- hexo deploy
+env:
+  global:
+    secure: HxoNUheASjsj+hQUaEf+IQLlBgTk4vyDEVJSSNmrIUyKZMXOG+7mgaMVwn5opvNPmsn38CROOJEPdYr0iqEQe5eYAeWUuOAHgHesHKAmBK1n66b5AvMfTXigtqOxyx5meKzpiPowjQUnFlDCr3TSxrLtBf4W7umAHYI8iPofNwpejCg3EPsflFu5qs/Y39w+i1u/TJgY7METT5iPn47XAKoz+ZPWNt3EAFRmgreSu/OtKepm8P5UVck/Q+QSbnK0NE7sAMlpiSg7j0JXvWnMyCGt0XFrzwV/z4lQghO2hFNJ1VsRXTF3S+kL/BGooD6KS+MFn2K6PPMPb1hNFBZTfSDTsVtTogF+TTkU2XTyMG9sTm5I7Cwny1rN8Ae50eLR123RVkBPTbidtv5ymTMPqiSWJ2XVh3X46VWHSmUn9pxNnLBdmrco5hbQBlIsdnuU1LNSNM+c0jmF8Z6TR/uRLiDIFCI7z1elLs4KTMi9/GiiWTgAStW0+LI0AZ36uxboAmrxvFCYYGEwnVh3ZQYSXvBsfA1zbNK/slNJtio3BQudhMT+Asi16LKbUPF/zeU51bydXCdrD+hNMZQ1K+nlCtttHsMd6j8tY2aNubRVhehjjxgO2QFo7ICw0qQ7D/Co2sRY72szs6P+X4lFQRJoPZeNZDd2Zc0ZwWoYjiVwI10=
+
