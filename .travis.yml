@@ -8,10 +8,10 @@ branches:
      - node_modules
 
 before_install:
-- openssl aes-256-cbc -K $encrypted_f32e69b43e03_key -iv $encrypted_f32e69b43e03_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
-- chmod 600 ~/.ssh/id_rsa
+- openssl aes-256-cbc -K $encrypted_f32e69b43e03_key -iv $encrypted_f32e69b43e03_iv -in .travis/id_rsa.enc -out ~/.ssh/authorized_key -d
+- chmod 600 ~/.ssh/authorized_key
 - eval $(ssh-agent)
-- ssh-add ~/.ssh/id_rsa
+- ssh-add ~/.ssh/authorized_key
 - cp .travis/ssh_config ~/.ssh/config
 - git config --global user.name 'liubiaomr'
 - git config --global user.email liubiaomr@163.com
