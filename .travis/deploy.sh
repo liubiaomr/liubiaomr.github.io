@@ -3,7 +3,7 @@ set -ev
 export TZ='Asia/Shanghai'
 
 # 先 clone 再 commit，避免直接 force commit
-# git clone -b master git@github.com:liubiaomr/liubiaomr.github.io.git .deploy_git
+git clone -b master git@github.com:liubiaomr/liubiaomr.github.io.git .deploy_git
 
 cd .deploy_git
 git checkout master
