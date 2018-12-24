@@ -37,6 +37,6 @@ script:
 
 after_success:
 # 部署到 GitHub Pages 和 VPS
-- ssh git@47.52.116.180 ".travis/deploy.sh"
+- ssh git@47.52.116.180 -o StrictHostKeyChecking=no ".travis/deploy.sh"
 addons:
   ssh_known_hosts: 47.52.116.180 # 请替换成自己的服务器IP

@@ -20,3 +20,9 @@ Host liubiao.me
     StrictHostKeyChecking no
     IdentityFile ~/.ssh/id_rsa
     IdentitiesOnly yes
+
+Host ECS
+    HostName 47.52.116.180
+    User git
+    IdentitiesOnly yes
+    IdentityFile ~/.ssh/id_rsa
