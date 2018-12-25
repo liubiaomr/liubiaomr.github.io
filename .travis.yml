@@ -17,7 +17,7 @@ cache:
 
 before_install:
 # 解密 RSA 私钥并设置为本机 ssh 私钥
-- openssl aes-256-cbc -K $encrypted_383bc2ea2d21_key -iv $encrypted_383bc2ea2d21_iv -in .travis/travis.key.enc -out ~/.ssh/id_rsa -d
+- openssl aes-256-cbc -K $encrypted_3624fc9aaf00_key -iv $encrypted_3624fc9aaf00_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
 # 修改本机 ssh 配置，防止秘钥认证过程影响自动部署
 - mv -fv .travis/ssh-config ~/.ssh/config
