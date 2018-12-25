@@ -39,4 +39,4 @@ script:
 
 after_success:
 # 部署到 GitHub Pages 和 VPS
-- ssh git@47.52.116.180 -o StrictHostKeyChecking=no '~/deploy.sh'
+- ssh git@47.52.116.180 -o StrictHostKeyChecking=no '~/.travis/deploy.sh'
