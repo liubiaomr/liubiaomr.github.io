@@ -31,6 +31,8 @@ top: 20
 	-test
 ```
 
+<!--more-->
+
 ## 1.1 POM.xml依赖
 
 > 项目所依赖jar包
