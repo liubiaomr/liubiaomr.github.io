@@ -6,6 +6,7 @@ date: 2018-12-26 01:07:18
 tags: springboot
 categories: tech
 top: 20
+toc: true
 ---
 
 > SpringBoot是为了简化Spring项目的快速创建、运行、调试、部署等一系列问题诞生的产物，**自动装配的特性可以让我们专注业务本身而不是外部的xml配置，我们只需要遵守规范，引入相关依赖就可以快速搭建WEB项目。**
