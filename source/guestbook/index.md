@@ -12,7 +12,3 @@ reward: false
 
 
 米＾－＾米
-
-
-
-![布达拉宫](/uploads/potala.jpg)
