@@ -9,11 +9,11 @@ branches:
   - master
 
 # 缓存依赖，节省持续集成时间
-# cache:
-#   yarn: true
-#   directories:
-#     - node_modules
-#     - themes
+cache:
+  yarn: true
+  directories:
+    - node_modules
+    - themes
 
 before_install:
 # 解密 RSA 私钥并设置为本机 ssh 私钥
