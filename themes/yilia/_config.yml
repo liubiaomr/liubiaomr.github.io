@@ -50,9 +50,9 @@ reward_type: 1
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /assets/alipay.jpg
+alipay: /img/alipay.jpg
 # 微信二维码图片地址
-weixin: /assets/wechatpay.jpg
+weixin: /img/wechatpay.jpg
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有copyright不为false的文章均有版权声明
