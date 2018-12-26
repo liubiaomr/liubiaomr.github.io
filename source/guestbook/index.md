@@ -7,4 +7,12 @@ reward: false
 
 
 
-测试
+<center><strong>如果你正在找写留言的地，在这里写就对了 </strong></center>
+
+
+
+米＾－＾米
+
+
+
+![布达拉宫](/uploads/potala.jpg)
