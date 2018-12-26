@@ -25,6 +25,7 @@ public class TestController{
     }
 }
 ```
+<!--more-->
 
 ## 2. @RestController
 
