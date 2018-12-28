@@ -4,9 +4,10 @@ comments: false
 reward: true
 toc: true
 copyright: true
-date: 2018-12-27 00:05:38
 tags: java基础
-categories: tech
+categories: 技术
+abbrlink: a8bf2e04
+date: 2018-12-27 00:05:38
 top:
 ---
 

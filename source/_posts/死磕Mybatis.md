@@ -4,9 +4,10 @@ comments: false
 reward: true
 toc: true
 copyright: true
-date: 2018-12-27 00:07:45
 tags: mybatis
-categories: tech
+categories: 技术
+abbrlink: b3def48c
+date: 2018-12-27 00:07:45
 top:
 ---
 

@@ -16,8 +16,8 @@ home_nav:
   - name: Blog
     url: /archives
     target_blank: false #不在新页面打开
-  - name: Project
-    url: /project/
+  - name: me
+    url: /about/
     target_blank: true #在新页面打开
   - name: Github
     url: https://github.com/liubiaomr
@@ -43,9 +43,12 @@ page_nav:
   - name: 关于
     url: /about/
     target_blank: false
-  - name: RSS
-    url: /atom.xml
-    target_blank: true # 在新页面打开
+  - name: 留言板
+    url: /guestbook/
+    target_blank: false
+  # - name: RSS
+  #   url: /atom.xml
+  #   target_blank: true # 在新页面打开
   - name: 搜索
     url: /search/
     target_blank: false # 在新页面打开
@@ -124,8 +127,8 @@ init_page_content: HOME_NAV  # HOME_NAV | POST
 # 第三方服务
 # =========================================================
 # Stats
-google_analytics: UA-38189205-1
-baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
+google_analytics: 
+baidu_analytics: 
 
 # Comment service
 
@@ -138,7 +141,7 @@ baidu_analytics: 57e94d016e201fba3603a8a2b0263af0
 
 # 畅言, doc: http://changyan.kuaizhan.com/
 changyan:
-  enable: true  # true | false  这里开启
+  enable: false  # true | false  这里开启
   changyan_appid: cytYOHPtc
   changyan_appkey: e62ec9c3068b917f78ad7c05316882a0
 
@@ -171,12 +174,12 @@ gitment:
 
 # Valine comment system  https://valine.js.org
 valine:
-  enable: false # 如果使用valine，请设置改之为true
-  appid:  # your leancloud application appid
-  appkey:  # your leancloud application appkey
-  notify: false # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
+  enable: true # 如果使用valine，请设置改之为true
+  appid:  BcT23zumW5znivc5CA6R0Guq-gzGzoHsz # your leancloud application appid
+  appkey:  CS5eQoRbN9EgLuji90rwMD5S # your leancloud application appkey
+  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
+  verify: true # Verification code
+  placeholder: ヾﾉ≧∀≦)o来啊，快活啊! # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
@@ -194,26 +197,27 @@ about:
   - type: me
     icon: icon-user
     text_value:
-    - "Scut，1991，Spring."
-    - "喜欢设计，擅长编程，喜欢睡懒觉."
-    - "前端开发工程师，常用 HTML / CSS / JavaScript."
+    - "刘标，1990，Summer."
+    - "爱好运动，擅长编程，喜欢睡懒觉."
+    - "Java开发工程师，常用 Java / Spring技术站 / JavaScript."
+    - "目前在学习区块链技术"
   - type: Github
     icon: icon-github
     text_key: Github
-    text_value: "@forsigner"
-    text_value_url: https://github.com/forsigner
-  - type: weibo
-    icon: icon-weibo
-    text_key: 微博
-    text_value: "@forsigner"
-    text_value_url: http://weibo.com/u/1847075964
+    text_value: "@liubiaomr"
+    text_value_url: https://github.com/liubiaomr
+  # - type: weibo
+  #   icon: icon-weibo
+  #   text_key: 微博
+  #   text_value: "@forsigner"
+  #   text_value_url: http://weibo.com/u/1847075964
   - type: mail
     icon: icon-mail
-    text_key: Gmail
-    text_value: "forsigner@gmail.com"
+    text_key: 163邮箱
+    text_value: "liubiaomr@163.com"
   - type: location
     icon: icon-location
-    text_value: 珠海
+    text_value: 北京
 
 link:
   - name: 织网
