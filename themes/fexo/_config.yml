@@ -99,7 +99,7 @@ donation:
 
 
 post:
-  header_align: CENTER # LEFT|CENTER
+  header_align: LEFT # LEFT|CENTER
   showToc: true # true|false
   showComments: false
   open_in_new_window: false
