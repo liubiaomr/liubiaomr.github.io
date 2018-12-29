@@ -86,7 +86,7 @@ backtop:
 donation:
   show: true
   btn_text: 支持一下
-  tip: 扫一扫，支持forsigner
+  tip: 扫一扫，支持feearg
   items:
     - type: 微信
       text: 微信扫一扫
@@ -101,7 +101,7 @@ donation:
 post:
   header_align: CENTER # LEFT|CENTER
   showToc: true # true|false
-  showComments: true
+  showComments: false
   open_in_new_window: false
   show_prev_next: true
 
