@@ -4,9 +4,10 @@ comments: false
 reward: true
 toc: true
 copyright: true
-date: 2018-12-29 00:11:43
 tags: hexo安装
 categories: 技术
+abbrlink: 4ca02684
+date: 2018-12-29 00:11:43
 top:
 ---
 

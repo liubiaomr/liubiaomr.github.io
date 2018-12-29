@@ -34,9 +34,9 @@ skip_render:
 
 # 搜索配置
 search:
-  path: search.json
-  source: all # other values: posts, pages
-  trim_html: false
+  path: search.xml
+  field: post
+  content: true
 
 # Writing
 new_post_name: :title.md # File name of new posts
