@@ -24,7 +24,7 @@ comments: true
 ​    ['Java', 'Mysql', 'Spring技术栈', 'Mybatis', 'Redis', 'MongoDB'],
 ​    ['Html', 'Javascript', 'jQuery', 'CSS', 'ES6', 'Node'],
 ​    ['Git', 'SVN'],
-​    ['Vue'],
+​    ['Vue','React'],
 ​    ['Bootstrap', 'SUI Mobile', 'light7'],
 ​    ['WordPress', 'OpenCart'],
   ],
