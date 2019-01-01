@@ -50,21 +50,7 @@
     </p>
   <% } %>
 </section>
-<!--
-<section id="search">
-        <span class="h1"><a href="#">Search</a></span>
-        <form action="/search/" method="get">
-        <div class="row">
-            <div class="col-xs-8 col-md-4">
-                <input title="关键词" type="text" name="keyword" value="">
-            </div>
-            <div class="col-xs-4 col-md-2">
-                <button type="submit" class="ui-button ui-button-sgreen">&nbsp;搜索&nbsp;</button>
-            </div>
-        </div>
-        </form>
-    </section>
--->
+
 <section id="writing">
   <span class="h1"><a href="<%- url_for("archives") %>"><%= __('index.articles') %></a></span>
   <% if (theme.tags_overview && site.tags.length) { %>
