@@ -25,7 +25,7 @@ abbrlink:
 # 配置搜索
 search:
   path: search.xml
-  field: post
+  field: all
 
 # Directory
 source_dir: source
