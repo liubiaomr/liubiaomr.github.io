@@ -1,6 +1,6 @@
 ---
 title: search
-date: 2018-12-28 15:54:11
-layout: search
+date: 2019-01-01 15:11:04
+type: search
 comments: false
 ---

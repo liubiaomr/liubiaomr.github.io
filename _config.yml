@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 零壹之间
+title: 飞鸽
 subtitle: 努力工作，简单生活
 description:
 keywords:
 author: 刘标
-language: zh-CN
+language: en
 timezone:
 
 # URL
@@ -24,9 +24,9 @@ abbrlink:
 
 # 配置搜索
 search:
-  path: search.json
-  source: posts # other values: posts, pages
-  trim_html: false
+  path: search.xml
+  field: post
+  content: true
 
 # Directory
 source_dir: source
@@ -83,7 +83,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fexo
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
