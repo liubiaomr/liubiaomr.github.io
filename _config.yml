@@ -26,7 +26,6 @@ abbrlink:
 search:
   path: search.xml
   field: post
-  content: true
 
 # Directory
 source_dir: source
