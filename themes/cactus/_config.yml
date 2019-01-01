@@ -131,6 +131,10 @@ valine:
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
 
+# 搜索
+  local_search:
+    enable: true
+
 ## 一言
 hitokoto: enabled   
 
