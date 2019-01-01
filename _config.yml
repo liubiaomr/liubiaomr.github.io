@@ -25,7 +25,9 @@ abbrlink:
 # 配置搜索
 search:
   path: search.xml
-  field: all
+  field: post
+  format: html
+  limit: 10000
 
 # Directory
 source_dir: source
